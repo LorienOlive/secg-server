@@ -7,10 +7,10 @@ import dotenv from 'dotenv';
 const result = dotenv.config();
 
 if (result.error) {
-    throw result.error
+    throw result.error;
 }
-   
-console.log(result.parsed)
+
+console.log(result.parsed);
 
 export default {
     db: process.env.DB,
