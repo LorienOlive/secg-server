@@ -1,1 +1,1 @@
-# secg
+# secg-server
